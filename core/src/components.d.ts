@@ -2107,7 +2107,7 @@ declare global {
        * The text to display on the ok button. Default: `OK`.
        */
       'okText': string;
-      'open': (ev?: UIEvent | undefined) => Promise<HTMLIonPopoverElement> | Promise<HTMLIonActionSheetElement> | Promise<HTMLIonAlertElement>;
+      'open': (ev?: UIEvent | undefined) => Promise<HTMLIonActionSheetElement> | Promise<HTMLIonAlertElement> | Promise<HTMLIonPopoverElement>;
       /**
        * The text to display when the select is empty.
        */
